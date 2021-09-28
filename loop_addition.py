@@ -17,7 +17,7 @@ def main():
     try:
         user_input = int(user_input)
 
-        if user_input < 0:
+        if user_input <= 0:
             print("Invalid Input.")
         else:
             while loop_counter <= user_input:
